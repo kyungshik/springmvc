@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/mapping/users")
 public class MappingClassController {
 //개념 복습 @RestController, @PathVariable
-
+//@RestController :
     @GetMapping
     public String user() {
         return "get users";
